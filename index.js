@@ -4,7 +4,7 @@
 
 const container = document.getElementById("container")
 
-container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+container.innerHTML = "<button onclick='buy()'>Buy Now to Get the Full Benefits!</button>"
 
 function buy(){
   container.innerHTML += "<p>Than you for buying!</p>"
